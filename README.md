@@ -28,6 +28,23 @@ This project helped me understand and apply the following key web development co
 
 ---
 
+## Navbar Functionality
+
+The **navigation bar** is built using Tailwind CSS and includes:
+
+- A **logo/title**
+- Links to scroll to each section: `Home`, `About`, `Projects`, and `Contact`
+- A **dark mode toggle button** (`🌙`) that switches themes when clicked
+
+### How it works:
+
+- The navbar is **fixed at the top** so it stays visible when scrolling.
+- On small screens, the nav links are hidden (`md:flex` is used to show them only on medium and larger screens).
+- The **dark mode toggle** uses JavaScript to toggle the `dark` class on the `<html>` element. This switches between light and dark styles instantly.
+- Tailwind’s transitions and hover states (`hover:text-blue-500`, `transition`) enhance interactivity.
+
+---
+
 ## Project Structure
 
 <pre>
@@ -70,7 +87,5 @@ project-root/
 ## 📺 View Live
 
 👉 [Live Site](https://portfolio-iota-rust-dlupqfbc1u.vercel.app/)
-
-
 
 ---
